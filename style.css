@@ -6,7 +6,7 @@ body{
     background-attachment:fixed;
 
     background-blend-mode:multiply;
-    background-color:rgba(10,5,15,0.75);
+    background-color:rgba(10,5,15,0.15);
 
     margin:0;
     min-height:100vh;
@@ -17,17 +17,17 @@ body{
 }
 
 .newspaper-box{
-    background-color: #e6e2d3;
-    color:#1a1816;
+    background-color: rgba(30,24,36,0.85);
+    color:#d1c4e9;
     font-family:"IM Fell English", serif;
     font-size:1.15rem;
     line-height:1.5;
     max-width: 650px;
     width:100%;
     padding:30px;
-    border:4px double #1a1816;
+    border:4px double #39ff14;
     box-shadow:0 20px 50px rgba(0,0,0,0.8),
-    inset 0 0 40px rgba(100,90,70,0.2);
+                inset 0 0 40px rgba(94,0,211,0.3);
     position:relative;
 }
 
