@@ -297,6 +297,15 @@ body{
     margin-top: 15px;
 }
 
+.ministerium-title {
+    font-family: 'Almendra',cursive;
+    color: #39ff14;
+    font-size: 2.2rem; /* Made it much larger and more commanding */
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: none; /* Blackletter looks best with natural case */
+}
+
 /* Decree Header Styling */
 .decree-header {
     text-align: center;
