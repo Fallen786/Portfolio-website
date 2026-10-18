@@ -195,6 +195,7 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:flex-start;
+    gap:30px;
     max-width:1450px;
     width:100%;
     margin:0 auto;
@@ -359,7 +360,7 @@ body{
 
 /* --- RETURN BUTTON STYLING (Right Flank) --- */
 .return-box {
-    background-color: rgba(20, 15, 25, 0.85);
+    background-color: rgba(20, 15, 25, 0.70);
     border: 4px solid #39ff14;
     outline: 2px dashed #9400d3;
     outline-offset: -5px;
@@ -370,4 +371,62 @@ body{
 
 .return-box:hover {
     transform: scale(1.02);
+}
+/* --- THE GRIMOIRE BOX (Personal Diary Center Document) --- */
+.grimoire-box {
+    background-color: rgba(25, 20, 30, 0.70); /* A slightly deeper, intimate diary tone */
+    color: #d1c4e9;
+    font-family: 'IM Fell English', serif;
+    padding: 30px;
+    width: 550px;
+    border: 4px solid #9400d3; /* Purple-dominant border to distinguish from government decrees */
+    outline: 2px solid #39ff14;
+    outline-offset: -5px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8),
+                inset 0 0 40px rgba(57, 255, 20, 0.15);
+    position: relative;
+    margin-top: 0;
+}
+
+/* Grimoire Header */
+.grimoire-header {
+    text-align: center;
+    border-bottom: 2px dashed #9400d3;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.grimoire-tag {
+    font-family: 'Special Elite', monospace;
+    font-size: 0.75rem;
+    color: #39ff14;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.grimoire-header h2 {
+    font-family: 'MedievalSharp', cursive;
+    color: #d1c4e9;
+    font-size: 1.6rem;
+    margin: 0;
+    text-shadow: 0 0 8px rgba(148, 0, 211, 0.6);
+}
+
+/* Grimoire Body Text (First person diary style) */
+.grimoire-box .news-article p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-indent: 20px;
+}
+
+.grimoire-box .news-footer {
+    text-align: center;
+    border-top: 1px dashed rgba(148, 0, 211, 0.4);
+    margin-top: 30px;
+    padding-top: 15px;
+    font-family: 'Special Elite', monospace;
+    font-size: 0.8rem;
+    color: #9400d3;
 }
