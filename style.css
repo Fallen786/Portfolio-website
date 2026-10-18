@@ -135,6 +135,29 @@ body{
     box-shadow:0 20px 50px rgba(0,0,0,0.8),
                 inset 0 0 30px rgba(94,0,211,0.3);
     position:relative;
+    border-top:none;
+    border-bottom:none;
+    margin-top:15px;
+    margin-bottom:15px;
+
+}
+.side-panel::before,
+.side-panel::after{
+    content:'';
+    position:absolute;
+    left:-8px;
+    right:-8px;
+    height:14px;
+    background: #3e2723;
+    border:2px solid #39ff14;
+    border-radius:6px;
+    box-shadow:0 3px 6px rgba(0,0,0,0.9);
+}
+.side-panel::before{
+    top:-14px;
+}
+.side-panel::after{
+    bottom:-14px;
 }
 .side-panel .panel-title{
     font-family: "MedievalSharp", cursive;
@@ -177,6 +200,5 @@ body{
     width:100%;
     margin:0 auto;
 }
-
 
 
