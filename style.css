@@ -193,12 +193,92 @@ body{
 
 .site-wrapper{
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:flex-start;
-    gap:25px;
-    max-width:1150px;
+    max-width:1450px;
     width:100%;
     margin:0 auto;
+    padding:0 20px
 }
 
+.right-tower {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+    width: 260px;
+}
 
+.chain-box {
+    background-color: rgba(20, 15, 25, 0.70);
+    color: #d1c4e9;
+    font-family: 'IM Fell English', serif;
+    padding: 15px 20px;
+    border: 4px solid #39ff14;
+    outline: 2px dashed #9400d3;
+    outline-offset: -5px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8),
+                inset 0 0 20px rgba(94, 0, 211, 0.3);
+    position: relative;
+    text-align: center;
+}
+
+.chain-box .plaque-title {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.1rem;
+    margin: 0;
+    text-shadow: 0 0 6px rgba(57, 255, 20, 0.4);
+}
+
+.chain-box .plaque-title a {
+    color: #39ff14;
+    text-decoration: none;
+    transition: color 0.2s, text-shadow 0.2s;
+}
+
+.chain-box .plaque-title a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(57, 255, 20, 0.8);
+}
+
+.chain-box .plaque-sub {
+    font-family: 'Special Elite', monospace;
+    font-size: 0.75rem;
+    color: #b0bec5;
+    margin: 5px 0 0 0;
+}
+
+.potion-box::before,
+.archive-box::before {
+    content: '';
+    position: absolute;
+    top: -30px; 
+    left: 30px;
+    width: 10px;
+    height: 30px;
+    background: repeating-linear-gradient(
+        0deg,
+        #111,
+        #111 6px,
+        #39ff14 6px,
+        #39ff14 10px
+    );
+    border: 1px solid #000;
+}
+
+.potion-box::after,
+.archive-box::after {
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: 30px;
+    width: 10px;
+    height: 30px;
+    background: repeating-linear-gradient(
+        0deg,
+        #111,
+        #111 6px,
+        #39ff14 6px,
+        #39ff14 10px
+    );
+    border: 1px solid #000;
+}
