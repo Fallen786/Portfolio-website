@@ -122,3 +122,12 @@ body{
     margin-bottom:10px;
     filter: grayscale(100%) contrast(120%);
 }
+
+.site-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items:flex-start;
+    max-width:1200px;
+    width:100%;
+    margin: 0 auto;
+}
