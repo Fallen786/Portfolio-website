@@ -475,3 +475,11 @@ body{
     letter-spacing: 2px;
     grid-column:2;
 }
+
+/* --- UNIVERSAL DECREE BACKGROUND --- */
+body.decree-body {
+    background-image: url('assets/decree-bg.png'); /* Swap with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
