@@ -483,3 +483,10 @@ body.decree-body {
     background-position: center;
     background-attachment: fixed;
 }
+
+body.grimoire-body {
+    background-image: url('assets/grimoire-bg.png'); /* Swap with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
