@@ -478,7 +478,7 @@ body{
 
 /* --- UNIVERSAL DECREE BACKGROUND --- */
 body.decree-body {
-    background-image: url('assets/decree-bg.png'); /* Swap with your actual image path */
+    background-image: url('assets/decree-bg.webp'); /* Swap with your actual image path */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
