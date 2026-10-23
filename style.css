@@ -288,6 +288,7 @@ body{
 .decree-box {
     background-color: rgba(30, 24, 36, ); /* Matches your transparent dark purple theme */
     color: #d1c4e9;
+    font-weight:bold;
     text-align: center;
     font-family: 'IM Fell English', serif;
     padding: 20px;
@@ -503,10 +504,10 @@ body.grimoire-body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(13, 15, 20, 0.85);
-    border: 3px double #c5a059; /* Ancient metallic/gold wizard border */
+    background: rgba(13, 15, 20, 0.8);
+    border: 3px double #39ff14; /* Ancient metallic/gold wizard border */
     padding: 12px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8), inset 0 0 10px rgba(197, 160, 89, 0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8), inset 0 0 10px rgba(52, 211, 153, 0.1);
     border-radius: 4px;
 }
 
@@ -514,7 +515,7 @@ body.grimoire-body {
 .wizard-frame-container img {
     width: 100%;
     height: auto;
-    border: 1px solid #4a3b2c;
+    border: 1px solid rgba(57,255,20,0.3);
     filter: sepia(30%) contrast(110%); /* Gives it an aged, grim look */
     display: block;
 }
@@ -524,7 +525,7 @@ body.grimoire-body {
     margin-top: 10px;
     font-family: monospace; /* Or your preferred lore font */
     font-size: 0.85rem;
-    color: #c5a059;
+    color: #d1c4e9;
     text-align: center;
     font-style: italic;
     letter-spacing: 0.5px;
