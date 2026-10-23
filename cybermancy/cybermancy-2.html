@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grimoire | HTML & CSS</title>
+    <!-- Keeps the same cohesive font library -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=IM+Fell+English:ital@0;1&family=MedievalSharp&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="grimoire-body">
+
+    <div class="site-wrapper">
+
+        <!-- 1. LEFT FLANK: RETURN TO GAZETTE BUTTON -->
+        <div class="left-tower">
+            <aside class="chain-box return-box">
+                <h4 class="plaque-title"><a href="../index.html">↩ Return to Gazette</a></h4>
+                <p class="plaque-sub">Back to Main Landing</p>
+            </aside>
+        </div>
+
+        <!-- 2. CENTER GRIMOIRE / MEMOIR BOX (First-person personal notes) -->
+        <main class="grimoire-box">
+            <div class="grimoire-header">
+                <span class="grimoire-tag">TO THE FELLOWSHIP</span>
+                <h2>HTML & CSS</h2>
+            </div>
+            
+            <div class="news-article">
+                <p> <em>Technically speaking</em>, HTML was the very first language I ever encountered, back when I was quite small. At the time, I didn't see the point of it at all. Without knowing anything about CSS or JavaScript, raw markup just looked ugly and formatting felt like an absolute chore. For a long time, I honestly wished I could erase that entire memory.
+                </p>
+                <p>
+                It wasn't until much later that I realized how important that language actually was. Deciding to give it another try, I dived into "The Odin Project"- which is an exceptionally well-crafted grimoire for learning web architecture.</p>
+                <p>
+                The course warns that most practitioners breeze through HTML and CSS just to rush ahead to JavaScript. But my path took a different turn. I never actually made it to JavaScript; the ministerium started monitoring my node a bit too strictly, forcing me to exercise caution since a completely free, open curriculum like that operates entirely outside official oversight. Coupled with the sudden influx of heavy academic coursework, I had to pause the JavaScript module, though I will likely revisit it in the future.
+                </p>
+                <p>
+                Despite stopping short, mastering the core of HTML and CSS allowed me to forge one of my favorite project yet: a dedicated portal where I can release my writings directly to the fellowship across the web, making these dispatches infinitely more accessible.
+                </p>
+            </div>
+            <!-- PAGE FLIPPER BUTTONS -->
+            <div class="grimoire-pagination">
+                <!-- If there's a previous page, link it. Otherwise, use style="visibility: hidden;" on the first page -->
+                <a href="cybermancy-1.html" class="page-btn prev-btn">&lt; Prev Scroll</a> 
+
+                <span class="page-indicator">Folio II</span>
+
+                <!-- <a href="cybermancy-2.html" class="page-btn next-btn">Next Scroll &gt;</a> --> 
+            </div>
+
+            <div class="news-footer">
+                <span>SCRAWLED BY THE ARCHITECT's HAND</span>
+            </div>
+        </main>
+
+        <!-- 3. RIGHT FLANK: PERSISTENT CHAINED PLAQUES (Same as Index) -->
+        <div class="right-tower">
+            <aside class="chain-box spell-box">
+                <h4 class="plaque-title"><a href="cybermancy-1.html">Cybermancy</a></h4>
+                <!--<p class="plaque-sub">Frontend Runes</p>-->
+            </aside>
+            <aside class="chain-box potion-box">
+                <h4 class="plaque-title"><a href="../applied-sorcery/applied-sorcery-1.html">Applied Sorcery</a></h4>
+               <!-- <p class="plaque-sub">(Tools and Arch)</p>-->
+            </aside>
+            <aside class="chain-box archive-box">
+                <h4 class="plaque-title"><a href="../arcane-pastime/arcane-pastime-1.html">Arcane Pastime</a></h4>
+            </aside>
+        </div>
+
+    </div>
+
+</body>
+</html>
