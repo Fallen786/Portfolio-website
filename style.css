@@ -1,10 +1,10 @@
+
 body{
     background-image: url('assets/index-bg.webp');
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
     background-attachment:fixed;
-
     background-blend-mode:multiply;
     background-color:rgba(10,5,15,0.15);
 
@@ -489,4 +489,44 @@ body.grimoire-body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+/* Container to hold text on the left and the wizard frame on the right */
+.dispatch-grid {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 24px;
+    align-items: start;
+}
+
+/* The wizardy frame container */
+.wizard-frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(13, 15, 20, 0.85);
+    border: 3px double #c5a059; /* Ancient metallic/gold wizard border */
+    padding: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8), inset 0 0 10px rgba(197, 160, 89, 0.2);
+    border-radius: 4px;
+}
+
+/* The image styling inside the frame */
+.wizard-frame-container img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #4a3b2c;
+    filter: sepia(30%) contrast(110%); /* Gives it an aged, grim look */
+    display: block;
+}
+
+/* The small space/caption beneath the image */
+.wizard-caption {
+    margin-top: 10px;
+    font-family: monospace; /* Or your preferred lore font */
+    font-size: 0.85rem;
+    color: #c5a059;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.5px;
 }
